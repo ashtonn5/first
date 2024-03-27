@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url(../img/odin.jpg) center center/cover no-repeat;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#belarus {
+    display: flex;
+}
+.button {
+    transition: all .1s;
+    text-align: center;
+    padding: 5px 40px;
+    border-radius: 5px;
+    border: 3px solid red;
+    box-shadow: 0 0 1rem red;
+    margin-right: 20px;
+    background: rgba(0,0,0,0.4);
+    font-size: 35px;
+    color: white;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
+    cursor: pointer;
+}
+.button:last-child {
+    margin-right: 0;
+}
+.active {
+    border: 3px solid #0728be;
+    box-shadow: 0 0 1rem #0728be;
+    transform: scale(1.02);
+}
